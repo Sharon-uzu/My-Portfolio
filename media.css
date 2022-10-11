@@ -113,23 +113,36 @@
 
 
     /* services */
+    .serv{
+        margin-top: -2rem;
+    }
+    .serv .one{
+        margin-bottom:2.5rem ;
+    }
+    .serv .one p{
+        font-size: 15px;
+    }
     .serv .contnt{
         flex-direction: column;
+        width: 97%;
+        margin: auto;
     }
     .serv .contnt .first{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .serv .contnt .first img{
-        width: 90%;
+        width: 100%;
     }
     .serv .contnt .second{
-        width: 55%;
+        width: 72%;
         margin: auto;
     }
     .serv .contnt .second .two .on {
        top: 0px;
+       left: -3rem;
     }
+
 
 
     /* PORTFOLIO */
@@ -143,8 +156,13 @@
         margin-top: 2rem;
     }
     .portf .contnt h1{
-        font-size: 1rem;
+        font-size: 19px;
     }
+    .portf .contnt p{
+        font-size: 14px;
+    }
+
+    
 
     /* CONTACT */
     .contact .content{
